@@ -31,7 +31,7 @@
 			font-weight: bold;
 			
         }
-		.main-screen0000 {
+	.main-screen0000 {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -92,7 +92,7 @@
         transform: translateY(-10px); /* 重置位置到下方 */
     }
 }
-		.main-screen1 {
+	.main-screen1 {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -128,7 +128,7 @@
             transform-origin: bottom; /* 设置缩放原点为底部 */
         }
 		
-		#hidden-screen1 {
+	#hidden-screen1 {
 		   position: absolute;
             width: 100%;
             height: 100%;
@@ -222,8 +222,8 @@
 		
 		#container {
            position: fixed; /* 固定定位 */
-           bottom: 500px;    /* 距离浏览器底部 20px */
-           left:50%; bottom: 500px; translate: -50% 0%;
+           bottom: 600px;    /* 距离浏览器底部 20px */
+           left:50%; bottom: 600px; translate: -50% 0%;
         }
 		
 		#container_1 {
