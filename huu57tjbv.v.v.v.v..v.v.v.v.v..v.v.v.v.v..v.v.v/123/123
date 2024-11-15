@@ -1,0 +1,60 @@
+(function() {
+  let devtoolsOpen = false;
+
+  const checkDevTools = () => {
+    const threshold = 160; 
+    if (window.outerWidth - window.innerWidth > threshold || window.outerHeight - window.innerHeight > threshold) {
+      if (!devtoolsOpen) {
+        devtoolsOpen = true;
+        navigateTo('ghbjbjh53wk/ihihgir.html');
+      }
+    } else {
+      devtoolsOpen = false;
+    }
+  };
+
+  window.addEventListener('resize', checkDevTools);
+})();
+
+
+function navigateTo(url) {
+    window.location.replace(url);
+}
+
+
+// 水印示例
+const watermark = document.createElement('div');
+watermark.style.position = 'fixed';
+watermark.style.top = '0';
+watermark.style.left = '0';
+watermark.style.color = 'rgba(0, 0, 0, 0.2)';
+watermark.style.fontSize = '100px';
+watermark.style.pointerEvents = 'none';
+watermark.style.zIndex = '9999';
+watermark.textContent = '版权所有';
+document.body.appendChild(watermark);
+
+
+
+// 在服务器端配置 HTTP 头部（如 Apache 或 Nginx）
+Cache-Control: no-store, no-cache, must-revalidate, private
+Pragma: no-cache
+Expires: 0
+
+
+window.onbeforeprint = function() {
+    alert('打印功能已禁用');
+    return false; // 禁止打印
+};
+
+
+
+document.addEventListener('keydown', function(event) {
+    if ((event.ctrlKey || event.metaKey) && event.key === 's') {
+        event.preventDefault(); // 阻止默认的保存行为
+    }
+});
+
+
+
+
