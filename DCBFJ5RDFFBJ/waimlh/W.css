@@ -1,0 +1,336 @@
+		#WIN10_XZ {
+		  position: fixed; /* 固定定位 */
+            left: 25%; /* 距离浏览器右边50px */
+            top: 20%; /* 距离顶部50%，垂直居中 */
+        
+           # transform: translateY(-40%); /* 垂直方向居中对齐 */
+        }
+
+		#Android_XZ {
+		   position: fixed; /* 固定定位 */
+            right: 23%; /* 距离浏览器右边50px */
+            top: 20%; /* 距离顶部50%，垂直居中 */
+        
+            #transform: translateY(-40%); /* 垂直方向居中对齐 */
+
+        }
+
+		#macos_XZ {
+		  position: fixed; /* 固定定位 */
+            left: 25%; /* 距离浏览器右边50px */
+            top: 40%; /* 距离顶部50%，垂直居中 */
+        
+           # transform: translateY(-40%); /* 垂直方向居中对齐 */
+        }
+
+		#IOS_XZ {
+		  position: fixed; /* 固定定位 */
+          right: 23%; /* 距离浏览器右边50px */
+          transform: translateX(-30%);
+            top: 40%; /* 距离顶部50%，垂直居中 */
+        
+          # transform: translate(-25%); /* 垂直方向居中对齐 */
+        }
+		
+		#LINUX_XZ {
+		  position: fixed; /* 固定定位 */
+            left: 25%; /* 距离浏览器右边50px */
+            top: 60%; /* 距离顶部50%，垂直居中 */
+        
+           # transform: translateY(-40%); /* 垂直方向居中对齐 */
+        }
+		
+		#Harmony_XZ {
+		  position: fixed; /* 固定定位 */
+          right: 22%; /* 距离浏览器右边50px */
+          #transform: translateX(-30%);
+          top: 60%; /* 距离顶部50%，垂直居中 */
+        
+          transform: translate(-22%); /* 垂直方向居中对齐 */
+        }
+		
+		Win10_01 {
+		   position: absolute;
+		    left: -35px; /* 距离浏览器左边100px */
+            top: 50PX; /* 距离浏览器上边200px */
+            font-size: 25px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   Win10_012 {
+		   position: absolute;
+            width:110px;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 80PX; /* 距离浏览器上边200px */
+            font-size: 20px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   Win10_02 {
+		   position: absolute;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 110PX; /* 距离浏览器上边200px */
+            font-size: 10px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+
+	   macos_01 {
+		   position: absolute;
+           width:110px;
+		    left: -27px; /* 距离浏览器左边100px */
+            top: 50PX; /* 距离浏览器上边200px */
+            font-size: 25px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   macos_012 {
+		   position: absolute;
+           width:110px;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 80PX; /* 距离浏览器上边200px */
+            font-size: 20px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   macos_02 {
+		   position: absolute;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 110PX; /* 距离浏览器上边200px */
+            font-size: 10px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+
+
+
+	   Android_01 {
+		   position: absolute;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 50PX; /* 距离浏览器上边200px */
+            font-size: 25px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   Android_012 {
+		   position: absolute;
+           width:110px;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 80PX; /* 距离浏览器上边200px */
+            font-size: 20px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   Android_02 {
+		   position: absolute;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 110PX; /* 距离浏览器上边200px */
+            font-size: 10px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+
+	   IOS_01 {
+		   position: absolute;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 50PX; /* 距离浏览器上边200px */
+            font-size: 25px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   IOS_012 {
+		   position: absolute;
+           width:110px;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 80PX; /* 距离浏览器上边200px */
+            font-size: 20px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   IOS_02 {
+		   position: absolute;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 110PX; /* 距离浏览器上边200px */
+            font-size: 10px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+		
+	    LINUX_01 {
+		   position: absolute;
+           width:110px;
+		    left: -27px; /* 距离浏览器左边100px */
+            top: 50PX; /* 距离浏览器上边200px */
+            font-size: 25px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   LINUX_012 {
+		   position: absolute;
+           width:110px;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 80PX; /* 距离浏览器上边200px */
+            font-size: 20px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   LINUX_02 {
+		   position: absolute;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 110PX; /* 距离浏览器上边200px */
+            font-size: 10px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+		
+	   Harmony_01 {
+		   position: absolute;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 50PX; /* 距离浏览器上边200px */
+            font-size: 25px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   Harmony_012 {
+		   position: absolute;
+           width:110px;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 80PX; /* 距离浏览器上边200px */
+            font-size: 20px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+	   Harmony_02 {
+		   position: absolute;
+		    left: -25px; /* 距离浏览器左边100px */
+            top: 110PX; /* 距离浏览器上边200px */
+            font-size: 10px;  /* 使用相对单位，使标题大小根据窗口大小变化 */
+            style="color:rgb(0, 0, 0)" /* 文字颜色 */
+        }
+		
+		buttonBWIN10 {
+			left: -30px; /* 距离浏览器左边100px */
+            top: -10PX; /* 距离浏览器上边200px */
+            position: absolute;
+            height: 120px; /* 高度 */
+            width: 110px;
+            
+            background-color: rgba(173, 173, 188, 0); /* 按钮背景色 */
+            color: white; /* 按钮文字颜色 */
+            border-radius:0px; /* 圆角按钮 */
+			
+        }
+		buttonBmacos {
+			left: -30px; /* 距离浏览器左边100px */
+            top: -10PX; /* 距离浏览器上边200px */
+            position: absolute;
+            height: 120px; /* 高度 */
+            width: 110px;
+            
+            background-color: rgba(173, 173, 188, 0); /* 按钮背景色 */
+            color: white; /* 按钮文字颜色 */
+            border-radius:0px; /* 圆角按钮 */
+			
+        }
+		
+
+		buttonBAndroid {
+			left: -30px; /* 距离浏览器左边100px */
+            top: -10PX; /* 距离浏览器上边200px */
+            position: absolute;
+            height: 120px; /* 高度 */
+            width: 110px;
+            
+            background-color: rgba(173, 173, 188, 0); /* 按钮背景色 */
+            color: white; /* 按钮文字颜色 */
+            border-radius:0px; /* 圆角按钮 */
+			
+        }
+
+		buttonBIOS {
+			left: -30px; /* 距离浏览器左边100px */
+            top: -10PX; /* 距离浏览器上边200px */
+            position: absolute;
+            height: 120px; /* 高度 */
+            width: 110px;
+            
+            background-color: rgba(173, 173, 188, 0); /* 按钮背景色 */
+            color: white; /* 按钮文字颜色 */
+            border-radius:0px; /* 圆角按钮 */
+			
+        }
+		
+		buttonBLINUX {
+			left: -30px; /* 距离浏览器左边100px */
+            top: -10PX; /* 距离浏览器上边200px */
+            position: absolute;
+            height: 120px; /* 高度 */
+            width: 110px;
+            
+            background-color: rgba(173, 173, 188, 0); /* 按钮背景色 */
+            color: white; /* 按钮文字颜色 */
+            border-radius:0px; /* 圆角按钮 */
+			
+        }
+		
+		buttonBHarmony {
+			left: -30px; /* 距离浏览器左边100px */
+            top: -10PX; /* 距离浏览器上边200px */
+            position: absolute;
+            height: 120px; /* 高度 */
+            width: 110px;
+            
+            background-color: rgba(173, 173, 188, 0); /* 按钮背景色 */
+            color: white; /* 按钮文字颜色 */
+            border-radius:0px; /* 圆角按钮 */
+			
+        }
+		
+	
+	    .windows-icon {
+            font-size: 50px; /* 设置图标大小 */
+            color: black; /* 设置图标颜色 */
+        }
+	
+	    .android-icon {
+            font-size: 50px; /* 设置图标大小 */
+            color: black; /* 设置图标颜色 */
+        }
+
+	    .mac-icon {
+            font-size: 50px; /* 设置图标大小 */
+            color: black; /* 设置图标颜色 */
+        }
+        .ios-icon {
+            font-size: 50px; /* 设置图标大小 */
+            color: black; /* 设置图标颜色 */
+        }
+		
+	   .LINUX-icon {
+            font-size: 50px; /* 设置图标大小 */
+            color: black; /* 设置图标颜色 */
+        }
+		
+	   .Harmony-icon {
+            font-size: 50px; /* 设置图标大小 */
+            color: black; /* 设置图标颜色 */
+        }
+		
+		
+		
+		
+	   .svg-LINUX {
+            width: 50px; /* 设置宽度 */
+            height: 50px; /* 设置高度 */
+            background-image: url('THYT645R/GGERY.SVG'); /* 使用本地 SVG 文件 */
+            background-size: contain; /* 使背景图象合适地适应容器 */
+            background-repeat: no-repeat; /* 不重复背景图像 */
+            transition: background-color 0.3s ease; /* 设置过渡效果 */
+        }
+		
+	   .svg-Harmony {
+            width: 50px; /* 设置宽度 */
+            height: 50px; /* 设置高度 */
+            background-image: url(''); /* 使用本地 SVG 文件 */
+            background-size: contain; /* 使背景图象合适地适应容器 */
+            background-repeat: no-repeat; /* 不重复背景图像 */
+            transition: background-color 0.3s ease; /* 设置过渡效果 */
+        }
+
+        .svg-LINUX:hover {
+            #background-color: #007BFF; /* 悬停时改变背景颜色 */
+        }
+		
+		
+		.overlay-screen {
+           position: absolute;
+		   width: 70%;
+           height: 60%;
+           top: 48%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.4); /* 半透明黑色 */
+        }

@@ -1,0 +1,61 @@
+        .NO404_Screen_landscape {
+            display: none; /* 初始隐藏 */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../your-gif-file.gif') no-repeat center center fixed; /* 替换为您的GIF文件路径 */
+            background-size: 100% 100%;/* 背景图像覆盖整个窗口 */
+            z-index: 999999; /* 在最上层 */
+        }
+		.NO404_Screen_landscape1 {
+            display: fixed; /* 初始隐藏 */
+            position: fixed;
+            left:50%; bottom:20%; translate: -50% -0%;
+            width: 100%;
+            height: 100%;
+			opacity:0.1;
+            background: url('4hrskfnshist.css') no-repeat center center fixed; /* 替换为您的GIF文件路径 */
+            background-size: 20%;/* 背景图像覆盖整个窗口 */
+            z-index: 9999999; /* 在最上层 */
+        }
+		
+		.NO404_Screen_landscape2 {
+            display: fixed; /* 初始隐藏 */
+            position: fixed;
+            left:50%; bottom:20%; translate: -50% -0%;
+			opacity:1;
+            width: 100%;
+            height: 100%;
+            background: url('dbjbj.css') no-repeat center center fixed; /* 替换为您的GIF文件路径 */
+            background-size: 20%;/* 背景图像覆盖整个窗口 */
+            z-index: 99999999; /* 在最上层 */
+           animation: moveM 1.9s linear infinite;
+        }
+		
+		
+		@keyframes moveM {
+    0% {
+        transform: translateY(0px); /* 从下方开始 */
+    }
+    50% {
+        transform: translateY(150px); /* 向上移动 */
+    }
+    100% {
+        transform: translateY(0px); /* 重置位置到下方 */
+    }
+}
+
+
+
+
+        h404 {
+			position: absolute;
+            left:50%; 
+			display: fixed; /* 初始隐藏 */
+			left:50%; top:50%; translate: -50% 0%;
+            font-size: 100px; 
+            color: bick;
+			z-index: 9999999; /* 在最上层 */
+        }

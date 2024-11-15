@@ -1,0 +1,187 @@
+
+	    .Extended_window_functionality_HTML{
+			position: absolute;
+			position: fixed;
+		    width:100%;
+            height:100%;
+		}
+	
+	
+		buttonTCGB{
+			position: absolute;
+			position: fixed;
+		    padding: 5px 20px;
+            background-color: rgba(173, 173, 188, 1); /* 半透明黑色 */
+            color: block;
+            #border: none;
+            border: 2px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+			left: 50%; 
+            top: 105PX; 
+			transform: translate(-50%, 0%); /* 居中 */
+		
+		}
+
+        /* 背景遮罩 */
+        .overlay {
+            display: none; /* 初始隐藏 */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(173, 173, 188, 0.8); /* 半透明黑色 */
+            z-index: 1; /* 在最上层 */
+        }
+
+        /* 弹窗样式 */
+        .modal {
+		
+		    #position: relative;
+            display: flex; /* 初始隐藏 */
+            position: fixed;
+            left:50%; top:0%; translate: -50% -0%;
+            width: 170px; /* 弹窗宽度 */
+            max-width: 350px; /* 最大宽度 */
+            //background-color: white;
+            padding: 65px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 2; /* 在遮罩上方 */
+            opacity: 1; /* 初始透明度 */
+            visibility: hidden; /* 初始不可见 */
+            transition: opacity 0.3s, visibility 0.3s; /* 过渡效果 */
+			border-radius: 15px; /* 圆角按钮 */
+			background-color: rgba(173, 173, 188, 0.7); 
+        }
+		
+		.modal1 {
+            left:50%; top:15PX; translate: -50% -50%;
+            position: absolute;
+			
+        }
+
+        .modal.show {
+		
+            opacity: 1; /* 显示状态 */
+            visibility: visible; /* 可见状态 */
+            animation: moveA-in 0.9s forwards; /* 进入动画 */
+        }
+		
+
+
+        .modal.hide {  
+		     
+            visibility: visible; /* 保持可见状态以进行动画 */
+            animation: moveA-out 0.9s forwards; /* 隐藏动画 */
+        }
+
+        @keyframes moveA-in {
+            0% {
+			
+                transform: translateY(-100%); /* 从上方进入 */
+            }
+            100% {
+			
+                transform: translateY(0PX); /* 最终位置 */
+            }
+        }
+
+        @keyframes moveA-out {
+            0% {
+                transform: translateY(0PX); /* 当前可见 */
+                opacity: 1; /* 当前透明度 */
+            }
+            100% {
+                transform: translateY(-100%); /* 向上滑出 */
+                opacity: 0; /* 最终透明度 */
+            }
+        }
+		
+
+        .close {
+            #color: #aaa;
+            #float: right;
+            #font-size: 20px;
+            #font-weight: bold;
+            #cursor: pointer;
+        }
+
+        .menugithubcom {
+            position: absolute;
+            display: inline-block;
+			margin-left: auto;
+			right: 0;
+        }
+
+        #menuButtongithubcom1 {
+            padding: 5px 5px;
+            #background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+			
+        }
+
+        .submenugithubcom {
+            display: none;
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 8px 20px rgba(0, 0, 0, 0.1);
+            #opacity: 1;
+			left: -250%; /* 距离浏览器左边100px */
+            top: 0PX; /* 距离浏览器上边200px */
+			width: 130px;
+            animation: move22-in 0.9s forwards;
+        }
+
+        .submenugithubcom.show1 {
+            display: block;
+            opacity: 1;
+            animation: move22-in 0.9s forwards;
+        }
+
+        @keyframes move22-in {
+            0% {
+                transform: translateY(-100%);
+            }
+            100% {
+                transform: translateY(100);
+            }
+        }
+
+        @keyframes move22-out {
+            0% {
+                transform: translateY(0px);
+                #opacity: o;
+            }
+            100% {
+                transform: translateY(-100vh);
+                #opacity: 1;
+            }
+        }
+
+        .submenugithubcom.hide1 {
+            animation: move22-out 9.9s forwards;
+        }
+
+        .submenugithubcom ul {
+            list-style-type: none;
+            padding: 10px 0;
+            margin: 0;
+        }
+
+        .submenugithubcom li {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+
+        .submenugithubcom li:hover {
+            background-color: #f0f0f0;
+        }
+
+        #contentgithubcom {
+            margin-top: 20px;
+        }

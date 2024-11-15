@@ -1,0 +1,8 @@
+        .item {
+            display: inline-block;
+            margin: 0px;
+            cursor: pointer;
+            backface-visibility: hidden; /* 防止背面内容可见 */
+            transform-style: preserve-3d; /* 保持 3D 效果 */
+            transition: transform 0.5s; /* 动画过渡时间 */
+        }

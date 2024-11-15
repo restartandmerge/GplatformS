@@ -1,0 +1,27 @@
+
+		
+       function isMobile(){
+            if(window.navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) {
+              return true; 
+            }else{
+              return false; 
+            }
+        }
+        
+        if(isMobile()){
+          var link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          link.href = './DCBFJ5RDFFBJ/waimlh/A.css';
+          document.head.appendChild(link);
+			
+        }else{
+
+          var link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          link.href = './DCBFJ5RDFFBJ/waimlh/W.css';
+          document.head.appendChild(link);
+			
+        }
+	
