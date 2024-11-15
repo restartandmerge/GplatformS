@@ -5,7 +5,7 @@
             font-family: Arial, sans-serif;
             overflow: hidden; /* 防止滚动条出现 */
 			background-color: rgba(173, 173, 188, 1); /* 按钮背景色 */
-            background: url('63rhihidacsdgho..css') no-repeat center center fixed; /* 替换为您的GIF文件路径 */
+            background: url('63rhihidacsdgho..css1') no-repeat center center fixed; /* 替换为您的GIF文件路径 */
             background-size: 100% 100%;/* 背景图像覆盖整个窗口 */
 			
 			justify-content: center;
@@ -110,7 +110,7 @@
         }
 
         .hidden-screen {
-		    background: url('63rhihidacsdgho..css') no-repeat center center fixed; /* 替换为您的GIF文件路径 */
+		    background: url('63rhihidacsdgho..css1') no-repeat center center fixed; /* 替换为您的GIF文件路径 */
 			
             background-size: 100% 100%;/* 背景图像覆盖整个窗口 */
             position: absolute;
