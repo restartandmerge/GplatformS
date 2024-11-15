@@ -252,8 +252,8 @@
 		
 	    #container1 {
 		    position: absolute;
-            width: 100%;
-            height: 100%;
+            #width: 100%;
+            #height: 100%;
             display: flex;
             flex-direction: column; /* 纵向布局 */
             justify-content: center;
@@ -262,7 +262,8 @@
 			font-weight: bold;
 			place-items: center;
 			left: 0%; /* 距离浏览器左边100px */
-            top: 0PX; /* 距离浏览器上边200px */
+            #top: 5%; /* 距离浏览器上边200px */
+			bottom: 500px;
         }
 	    #container2 {
 		    position: absolute;
@@ -276,7 +277,7 @@
 			font-weight: bold;
 			place-items: center;
 			left: 0%; /* 距离浏览器左边100px */
-            top: 9PX; /* 距离浏览器上边200px */
+            top: 20%; /* 距离浏览器上边200px */
         }
 		
 	    #container2_NUll {
