@@ -1,9 +1,0 @@
-	    function B_WIN10_B() {
-           B_WIN10_XZBBBB.style.display= 'block';
-              const lang = localStorage.getItem('preferredLanguage') || 'zh'; 
-    setLanguage(lang);
-
-        }
-	    function B_WIN10_XZBB_XZA() {
-           B_WIN10_XZBBBB.style.display= 'none';
-        }
