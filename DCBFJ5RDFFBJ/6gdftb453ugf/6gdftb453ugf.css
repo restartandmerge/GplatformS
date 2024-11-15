@@ -221,18 +221,9 @@
         }
 		
 		#container {
-		    position: absolute;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column; /* 纵向布局 */
-            justify-content: center;
-            transition: opacity 0.5s;
-            opacity: 1;
-			font-weight: bold;
-			place-items: center;
-			left: 0%; /* 距离浏览器左边100px */
-            top: -200PX; /* 距离浏览器上边200px */
+           position: fixed; /* 固定定位 */
+           bottom: 500px;    /* 距离浏览器底部 20px */
+           left:50%; bottom: 500px; translate: -50% 0%;
         }
 		
 		#container_1 {
@@ -251,22 +242,13 @@
         }
 		
 	    #container1 {
-		    position: absolute;
-            #width: 100%;
-            #height: 100%;
-            display: flex;
-            flex-direction: column; /* 纵向布局 */
-            justify-content: center;
-            transition: opacity 0.5s;
-            opacity: 1;
-			font-weight: bold;
-			place-items: center;
-			left: 0%; /* 距离浏览器左边100px */
-            #top: 5%; /* 距离浏览器上边200px */
-			bottom: 500px;
+           position: fixed; /* 固定定位 */
+           bottom: 500px;    /* 距离浏览器底部 20px */
+           left:50%; bottom: 500px; translate: -50% 0%;
         }
-	    #container2 {
-		    position: absolute;
+		
+	    #container1bf {
+		    position: fixed;
             width: 100%;
             height: 100%;
             display: flex;
@@ -277,7 +259,15 @@
 			font-weight: bold;
 			place-items: center;
 			left: 0%; /* 距离浏览器左边100px */
-            top: 20%; /* 距离浏览器上边200px */
+            #top: 5%; /* 距离浏览器上边200px */
+			bottom: 5px;
+        }
+		
+		
+	    #container2 {
+           position: fixed; /* 固定定位 */
+           bottom: 500px;    /* 距离浏览器底部 20px */
+           left:50%; bottom: 500px; translate: -50% 0%;
         }
 		
 	    #container2_NUll {
