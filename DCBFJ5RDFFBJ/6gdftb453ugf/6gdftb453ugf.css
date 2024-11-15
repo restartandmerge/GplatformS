@@ -276,7 +276,7 @@
 			font-weight: bold;
 			place-items: center;
 			left: 0%; /* 距离浏览器左边100px */
-            top: 100PX; /* 距离浏览器上边200px */
+            top: 9PX; /* 距离浏览器上边200px */
         }
 		
 	    #container2_NUll {
